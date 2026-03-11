@@ -203,6 +203,53 @@ body {
   font-size: clamp(1.8rem, 4vw, 2.8rem);
 }
 
+.about-prose {
+  margin-top: 20px;
+  max-width: 75ch;
+}
+
+.about-prose p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.info-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.info-card {
+  background: var(--panel-strong);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.info-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.25rem;
+}
+
+.info-card p {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+
+.info-card ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.info-card li + li {
+  margin-top: 8px;
+}
+
 .consulting-grid {
   margin-top: 30px;
   display: grid;
@@ -312,6 +359,10 @@ body {
 
 @media (max-width: 900px) {
   .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-grid {
     grid-template-columns: 1fr;
   }
 

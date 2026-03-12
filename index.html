@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ian Worthington | Consulting and Modelling</title>
-  <meta name="description" content="Personal website for Ian Worthington featuring consulting services and a modelling portfolio.">
+  <title>Ian Worthington | AI Consulting and Modelling</title>
+  <meta id="meta-description" name="description" content="Personal website for Ian Worthington featuring AI consulting and a modelling portfolio.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,10 +17,14 @@
     <div class="container nav-wrap">
       <a href="#top" class="brand">Ian Worthington</a>
       <nav class="top-nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#consulting">Consulting</a>
-        <a href="#modelling">Modelling</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#consulting" data-i18n="nav.consulting">Consulting</a>
+        <a href="#modelling" data-i18n="nav.modelling">Modelling</a>
       </nav>
+      <div class="lang-switcher" role="group" aria-label="Language selector">
+        <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        <button class="lang-btn" type="button" data-lang="ja" aria-pressed="false">JP</button>
+      </div>
     </div>
   </header>
 
@@ -28,25 +32,25 @@
     <section class="hero section">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <p class="kicker">AI Architecture and Intelligent Automation</p>
-          <h1>I design AI-driven solutions that are practical, robust, and built to perform in the real world.</h1>
-          <p>
+          <p class="kicker" data-i18n="hero.kicker">AI Architecture and Intelligent Automation</p>
+          <h1 data-i18n="hero.title">I design AI-driven solutions that are practical, robust, and built to perform in the real world.</h1>
+          <p data-i18n="hero.body">
             Strategic architect and modernization leader focused on turning complex operations into
             measurable outcomes through clear architecture, automation, and execution.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#about">About My Work</a>
-            <a class="btn btn-primary" href="#consulting">Explore Consulting</a>
-            <a class="btn btn-ghost" href="#modelling">View Portfolio</a>
+            <a class="btn btn-primary" href="#about" data-i18n="hero.ctaAbout">About My Work</a>
+            <a class="btn btn-primary" href="#consulting" data-i18n="hero.ctaConsulting">Explore Consulting</a>
+            <a class="btn btn-ghost" href="#modelling" data-i18n="hero.ctaPortfolio">View Portfolio</a>
           </div>
         </div>
 
         <aside class="hero-card reveal" aria-label="Highlights">
-          <h2>What You Can Expect</h2>
+          <h2 data-i18n="hero.highlightsTitle">What You Can Expect</h2>
           <ul>
-            <li>AI-first strategy tied to practical business outcomes</li>
-            <li>Vendor-agnostic architecture and modular system design</li>
-            <li>Automation that improves reliability, speed, and accuracy</li>
+            <li data-i18n="hero.highlight1">AI-first strategy tied to practical business outcomes</li>
+            <li data-i18n="hero.highlight2">Vendor-agnostic architecture and modular system design</li>
+            <li data-i18n="hero.highlight3">Automation that improves reliability, speed, and accuracy</li>
           </ul>
         </aside>
       </div>
@@ -55,16 +59,16 @@
     <section id="about" class="section about">
       <div class="container">
         <div class="section-head reveal">
-          <p class="kicker">About Me</p>
-          <h2>Systems thinker, architect, and execution-focused builder.</h2>
-          <p>
+          <p class="kicker" data-i18n="about.kicker">About Me</p>
+          <h2 data-i18n="about.title">Systems thinker, architect, and execution-focused builder.</h2>
+          <p data-i18n="about.intro">
             I help hospitals and clinics move from slow, fragmented, legacy systems to unified,
             flexible platforms without disruption, lock-in, or unnecessary complexity.
           </p>
         </div>
 
         <div class="about-prose reveal">
-          <p>
+          <p data-i18n="about.body">
             I design modular infrastructure, integrate data across core healthcare platforms,
             and implement AI-driven automation that reduces manual workload while improving operational quality.
             My goal is simple: make complex systems smoother, safer, and easier for the people who rely on them.
@@ -73,50 +77,50 @@
 
         <div class="info-grid">
           <article class="info-card reveal">
-            <h3>How I Approach Healthcare Modernization</h3>
-            <p>Modernization should be incremental, low-risk, and grounded in real operational needs.</p>
+            <h3 data-i18n="about.card1.title">How I Approach Healthcare Modernization</h3>
+            <p data-i18n="about.card1.body">Modernization should be incremental, low-risk, and grounded in real operational needs.</p>
             <ul>
-              <li>Build unified data layers that eliminate silos</li>
-              <li>Introduce automation that removes repetitive tasks</li>
-              <li>Improve workflow reliability and transparency</li>
-              <li>Strengthen vendor positioning as trusted infrastructure</li>
-              <li>Explain complexity through visuals, scripts, and clear language</li>
+              <li data-i18n="about.card1.item1">Build unified data layers that eliminate silos</li>
+              <li data-i18n="about.card1.item2">Introduce automation that removes repetitive tasks</li>
+              <li data-i18n="about.card1.item3">Improve workflow reliability and transparency</li>
+              <li data-i18n="about.card1.item4">Strengthen vendor positioning as trusted infrastructure</li>
+              <li data-i18n="about.card1.item5">Explain complexity through visuals, scripts, and clear language</li>
             </ul>
           </article>
 
           <article class="info-card reveal">
-            <h3>My Work in AI and Trading Systems</h3>
-            <p>I build robust, interpretable trading models with Python, PyTorch, and MQL5.</p>
+            <h3 data-i18n="about.card2.title">My Work in AI and Trading Systems</h3>
+            <p data-i18n="about.card2.body">I build robust, interpretable trading models with Python, PyTorch, and MQL5.</p>
             <ul>
-              <li>Sequence-aware models with asymmetric, sign-weighted losses</li>
-              <li>Quantile-based risk measures and expectancy in R-units</li>
-              <li>Regime classification and microstructure-aware features</li>
-              <li>Cost-aware targets that reflect real trading conditions</li>
-              <li>Clear auditability via decision trees and flowcharts</li>
+              <li data-i18n="about.card2.item1">Sequence-aware models with asymmetric, sign-weighted losses</li>
+              <li data-i18n="about.card2.item2">Quantile-based risk measures and expectancy in R-units</li>
+              <li data-i18n="about.card2.item3">Regime classification and microstructure-aware features</li>
+              <li data-i18n="about.card2.item4">Cost-aware targets that reflect real trading conditions</li>
+              <li data-i18n="about.card2.item5">Clear auditability via decision trees and flowcharts</li>
             </ul>
           </article>
 
           <article class="info-card reveal">
-            <h3>How I Communicate</h3>
-            <p>Good communication accelerates alignment and delivery.</p>
+            <h3 data-i18n="about.card3.title">How I Communicate</h3>
+            <p data-i18n="about.card3.body">Good communication accelerates alignment and delivery.</p>
             <ul>
-              <li>Visual diagrams</li>
-              <li>Short educational scripts</li>
-              <li>Natural Japanese translations</li>
-              <li>ELI5-style explanations when needed</li>
+              <li data-i18n="about.card3.item1">Visual diagrams</li>
+              <li data-i18n="about.card3.item2">Short educational scripts</li>
+              <li data-i18n="about.card3.item3">Natural Japanese translations</li>
+              <li data-i18n="about.card3.item4">ELI5-style explanations when needed</li>
             </ul>
           </article>
 
           <article class="info-card reveal">
-            <h3>What Drives Me</h3>
-            <p>I interrogate assumptions, challenge defaults, and design systems that are:</p>
+            <h3 data-i18n="about.card4.title">What Drives Me</h3>
+            <p data-i18n="about.card4.body1">I interrogate assumptions, challenge defaults, and design systems that are:</p>
             <ul>
-              <li>Practical</li>
-              <li>Auditable</li>
-              <li>Modular</li>
-              <li>Future-proof</li>
+              <li data-i18n="about.card4.item1">Practical</li>
+              <li data-i18n="about.card4.item2">Auditable</li>
+              <li data-i18n="about.card4.item3">Modular</li>
+              <li data-i18n="about.card4.item4">Future-proof</li>
             </ul>
-            <p>
+            <p data-i18n="about.card4.body2">
               Whether I am modernizing hospital infrastructure or building a trading model,
               I bring the same mindset: clarity, rigor, and useful outcomes.
             </p>
@@ -128,22 +132,22 @@
     <section id="consulting" class="section consulting">
       <div class="container">
         <div class="section-head reveal">
-          <p class="kicker">Consulting</p>
-          <h2>Modernization leadership from architecture through execution.</h2>
+          <p class="kicker" data-i18n="consulting.kicker">Consulting</p>
+          <h2 data-i18n="consulting.title">Modernization leadership from architecture through execution.</h2>
         </div>
 
         <div class="consulting-grid">
           <article class="service-card reveal">
-            <h3>Healthcare Platform Strategy</h3>
-            <p>Define practical, phased modernization roadmaps aligned to operational realities.</p>
+            <h3 data-i18n="consulting.card1.title">Healthcare Platform Strategy</h3>
+            <p data-i18n="consulting.card1.body">Define practical, phased modernization roadmaps aligned to operational realities.</p>
           </article>
           <article class="service-card reveal">
-            <h3>Integration Architecture</h3>
-            <p>Connect EMRs, labs, imaging, and billing into resilient, interoperable data flows.</p>
+            <h3 data-i18n="consulting.card2.title">Integration Architecture</h3>
+            <p data-i18n="consulting.card2.body">Connect EMRs, labs, imaging, and billing into resilient, interoperable data flows.</p>
           </article>
           <article class="service-card reveal">
-            <h3>AI Workflow Automation</h3>
-            <p>Reduce manual workload and improve accuracy with targeted, auditable automation.</p>
+            <h3 data-i18n="consulting.card3.title">AI Workflow Automation</h3>
+            <p data-i18n="consulting.card3.body">Reduce manual workload and improve accuracy with targeted, auditable automation.</p>
           </article>
         </div>
       </div>
@@ -152,26 +156,26 @@
     <section id="modelling" class="section modelling">
       <div class="container">
         <div class="section-head reveal">
-          <p class="kicker">Modelling</p>
-          <h2>Portfolio</h2>
-          <p>A curated gallery with editorial and lifestyle direction.</p>
+          <p class="kicker" data-i18n="modelling.kicker">Modelling</p>
+          <h2 data-i18n="modelling.title">Portfolio</h2>
+          <p data-i18n="modelling.body">A curated gallery with editorial and lifestyle direction.</p>
         </div>
 
-        <div class="gallery" role="list" aria-label="Modelling portfolio images">
+        <div class="gallery" role="list" data-i18n-attr="aria-label:modelling.galleryAria" aria-label="Modelling portfolio images">
           <figure class="gallery-item reveal" role="listitem">
-            <img src="pics/IMG_20220305_025509.jpg" alt="Portfolio image 1">
+            <img src="pics/IMG_20220305_025509.jpg" data-i18n-attr="alt:modelling.image1" alt="Portfolio image 1">
           </figure>
           <figure class="gallery-item reveal" role="listitem">
-            <img src="pics/IMG_20221105_110325 (1).jpg" alt="Portfolio image 2">
+            <img src="pics/IMG_20221105_110325 (1).jpg" data-i18n-attr="alt:modelling.image2" alt="Portfolio image 2">
           </figure>
           <figure class="gallery-item reveal" role="listitem">
-            <img src="pics/IMG_20260312_080546.jpg" alt="Portfolio image 3">
+            <img src="pics/IMG_20260312_080546.jpg" data-i18n-attr="alt:modelling.image3" alt="Portfolio image 3">
           </figure>
           <figure class="gallery-item reveal" role="listitem">
-            <img src="pics/me.jpg" alt="Portfolio image 4">
+            <img src="pics/me.jpg" data-i18n-attr="alt:modelling.image4" alt="Portfolio image 4">
           </figure>
           <figure class="gallery-item reveal" role="listitem">
-            <img src="pics/_DSC7587a.jpg" alt="Portfolio image 5">
+            <img src="pics/_DSC7587a.jpg" data-i18n-attr="alt:modelling.image5" alt="Portfolio image 5">
           </figure>
         </div>
       </div>
@@ -181,7 +185,7 @@
   <footer class="site-footer">
     <div class="container">
       <p>Ian Worthington</p>
-      <p>Consulting and Modelling</p>
+      <p data-i18n="footer.tagline">Consulting and Modelling</p>
     </div>
   </footer>
 

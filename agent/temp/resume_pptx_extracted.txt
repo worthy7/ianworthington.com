@@ -1,0 +1,235 @@
+
+
+===== SLIDE 1 =====
+
+©
+Copyright
+FPT
+Software
+-
+Confidential
+Consultant
+:
+Ian Worthington (
+イアン
+)
+Position
+：
+AI/
+Technical Consultant/Solutions Architect
+Specialization
+：
+Healthcare: Development, testing and admin
+EDI Systems: Date flow/management for factory systems
+B2C: Public facing UX/UI design points (Material design)
+AI/Machine learning: Preprocessing -> Model deployment
+Working with AI agents/development
+Development knowledge
+：
+B
+lood analysis systems
+Factory/production line systems
+Booking systems
+Experience
+：
+Factory EDI system, Lead Developer,
+6
+years/4 people
+Blood Analysis,
+Solutions Architect
+,
+2 years/20 people
+AI/statistical modelling, PM/Tech lead, 1
+year/3 people
+eCommerce redesign, PM/Designer, 1 year/3 people
+Qualifications
+：
+JLPT
+N2 (15 years in Japan)
+,
+PMP, English Native
+Frameworks and languages
+：
+Angular, ActiveReports, .NET C#,
+signalR
+/
+WebSocket
+Python: sci-kit learn,
+Tensorflow
+/
+Keras
+C/C++
+DB:
+PostgreSQL、
+SQL Server,
+DynamoDb
+,
+Sqlite
+Can join from next month
+I believe nothing is impossible.
+I work hard to understand the problems in detail to craft suitable solutions.
+My broad background in enterprise level systems allow me to ensure high quality deliverables. I make heavy use of AI for discussion and also development. I have experience in the entire pipeline from requirements clarification to migration and deployment.
+In the new age of AI where anything can be built easily, I believe my best role is in bridging customer problems to suitable, high-quality solutions. I believe the most efficient path is in fast iterative cycles, building as we go.
+University of Manchester – Computer Science
+
+===== SLIDE 2 =====
+
+©
+Copyright
+FPT
+Software
+-
+Confidential
+コンサルタント
+:
+Ian Worthington (
+イアン
+)
+職位
+：
+AI/
+テクニカルコンサルタント・ソリューションズアーキテクト
+専門領域
+：
+ヘルスケア
+：
+ソフト開発、テスト・アドミニストレータ
+EDI
+システム
+:
+工場で使われる連携システム
+B2C:
+公開見えるサイト、
+UXUI
+デザイン
+AI/
+機械学種
+:
+モデル作成、モデル選択、データ掃除、結果分析
+AI Agent
+でソリューション作成
+業務知識：
+血液検査管理システム
+開発の知識
+工場の生産管理開発の知識
+予約システム開発の知識
+経験：
+生産管理システム、開発者、
+6
+年間、４人
+血液検査管理システム、
+SA
+、
+２
+年間、２０人
+AI/
+計算モデル開発、
+PM/
+開発、
+6
+年間、３人
+e
+コマースのデザイン改善、
+PM/
+デザイン、１年間、３人
+資格：
+JLPT
+N2 (
+日本１５年間
+)
+、
+PMP
+、
+母語は英語
+フレーム
+ワーク
+/
+言語
+/
+テック
+：
+Angular, ActiveReports, .NET C#,
+signalR
+/
+WebSocket
+Python: flask, sci-kit learn,
+Tensorflow
+/
+Keras
+C/C++
+BigQuery
+, GCP, AWS, Azure
+DB:
+PostgreSQL、
+SQL Server,
+DynamoDb
+,
+Sqlite
+参加可能期間：後
+1
+ヶ月
+〜
+私は「不可能はない」と信じています
+。
+課題を深く理解し、最適な解決策を導き出すために努力を惜しみません
+。
+エンタープライズ向けシステムにおける幅広い経験を活かし、高品質な成果物を提供してきました
+。
+議論や開発においてはAIを積極的に活用しています
+。
+要件整理から移行・デプロイメントまで、システム開発の全工程に携わった経験があります
+。
+AIによって「何でも簡単に作れる」時代だからこそ、私はお客様の課題を高品質なソリューションへつなぐ役割こそが最も重要だと考えています。迅速な反復サイクルを回しながら構築していくことが最も効率的なアプローチであると信じています。
+イギリスのマンチェスター大学・コンピューターサイエンス
+
+===== SLIDE 3 =====
+
+Tailored /other
+
+===== SLIDE 4 =====
+
+Experience as a Global Tech Lead
+I have successfully led and delivered a large-scale healthcare project with a focus on stability by implementing a Test Driven Development process for the teams.
+I introduce a deployment pipeline to ensure the quality of the product was kept to a high standard.
+I managed communication across 3 different regions in 2 languages with the goal of unifying the understanding between teams in order to reach suitable solutions that delivered the most business value to all stakeholders involved.
+I worked directly on the frontend to implement stronger model types to help avoid development pitfalls.
+I worked directly on the backend to implement
+a background jobs
+framework
+that would solve some of the most critical problems with the system performance.
+I worked to educate
+developers personally on issues I identified in their work. I made presentations and educational documents tailored to my team.
+I work hard to resolve the difficult problems. I am confident that my experience and skills will ensure a product of high quality is deployed - on time and making efficient use of budget.
+
+===== SLIDE 5 =====
+
+デザイン改善
+デザイン更新のプロジェクトでは、システムの機能を理解する上に
+Figma
+でモックアップを作成することができます。
+スケージュールとスコープ
+を管理するために
+Excel
+ベースで対応しました。
+改善点は
+ユーザーのフィードバック
+から抽出しました。
+機能を理解するために
+ワークショップ
+を担当しました。
+新デザインをチームで考えて
+Figma
+でモックアップを作りました。
+新デザインを説明するために
+Word/Excel
+ようでモックアップにコメントを付きました。
+画面の流れは別の遷移図で作成します。
+Here’s an image representing "feedback"! Let me know if you'd like any adjustments. 🚀
+Here’s a web mockup using only blue, orange, and green colors! Let me know if you’d like any refinements. 🚀
+モックアップ更新
+機能ワークショップ・
+モックアップフィードバック
+成果物：
+１．モックアップ
+２．画面説明
+３．遷移図

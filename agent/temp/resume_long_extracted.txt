@@ -1,0 +1,155 @@
+
+
+===== PAGE 1 =====
+
+Ian  Worthington  
+Computer
+ 
+Science
+ 
+BSc
+ 
+-
+ 
+University
+ 
+of
+ 
+Manchester
+ 
+ 
+ 
+EXPERIENCE
+ I  am  a  very  passionate  person  who  likes  to  learn  the  details  and  become  an  expert.  I  aim  to  please  and  give  great  results.  I  am  especially  interested  in  AI,  machine  learning,  web/app  development.  I  ask  the  difﬁcult  questions  when  they  need  to  be  asked,  I  enjoy  a  challenge.   
+FPT  Japan -  
+Solutions  Architect/Global  Tech  Lead 
+FEBRUARY
+ 
+2022
+ 
+-
+ 
+PRESENT
+ Tech:  dotnet/C#,  Angular,  SQL  Server,  Azure  
+I  manage  a  team  of  around  10  developers  based  in  Vietnam.  I  communicate  with  the  client  to  clarify  requirements  using  mockups  and  Q&A  sessions,  then  discuss  with  the  developers  to  produce  solutions.  I  talk  to  the  client  in  Japanese,  and  the  developers  in  English.  My  main  project  is  a  large  healthcare  system
+   
+Calendr.it —  
+Co-founder,  
+Full  Stack  developer  &  Chief  Technical  Ofﬁcer 
+FEBRUARY
+ 
+2017
+ 
+-
+ 
+PRESENT
+ Tech:  dotnet/C#,  Angular,  SQL  Server,  Azure  
+As  CEO,  I  manage  everything  from  development  to  sales.  This  is  my  company.  I  also  hire  and  designate  work  to  freelance  developers  when  needed.  We  liaise  with  customers  very  closely,  gathering  feedback  and  doing  whatever  is  necessary  to  ensure  we  are  bringing  more  and  more  value  as  we  move  forward.  I  work  on  this  project  in  all  of  my  free  time  on  evenings  and  weekends.   
+Fujikin  Inc.,  Osaka  —  Full  Stack  Engineer  
+MAY
+ 
+2016
+ 
+-
+ 
+PRESENT
+ 
+In  charge  of  a  large  project  responsible  for  B2B  communications  between  Fujikin  and  over  350  partner  companies.  I  was  in  charge  of  the  development  of  this  web  application ,  which  I  was  hired  to  renovate  from  the  10+  year  old  ASP  version  (which  only  worked  on  IE8).  I  created  a  brand  new  version  learning  Oracle,  .NET  4.6  and  jQuery  amongst  countless  plugins  and  packages,  but  primarily  built  on  the  ASP  Boilerplate  framework.  I  am  often  tasked  with  writing  up  the  requirements  and  documentation  for  the  project  too.  I  am  the  ﬁrst  foreigner  hired  into  the  company  of  over  3000  employees.  The  company  only  operates  in  Japanese,  but  has  factories  in  other  countries.  
+Minerva
+ 
+Intelligence,
+ 
+Osaka—
+ 
+Support
+ 
+Manager
+ 
+APRIL
+  
+2013
+ 
+-
+ 
+MAY
+ 
+2016
+ 
+Support  Manager  of  around  100  English  teachers  around  the  Kansai  area.  Screening,  hiring ,  training,  managing  schedules,  teaching,  sales,  event  organization/team  leading  and  dealing  with  any  and  all  problems  our  teachers  may  have.  I  was  manager  since  November  2014,  prior  to  this  I  was  a  teacher.  I  developed  my  own  in-house  schedule  and  pay  management  system  using  Google  Fusion  tables,  Google  API  and  some  Javascript  to  create  a  fully  functional  system  for  everyone  in  the  ofﬁce  to  use.  I  reﬁned  the  interview  process  to  ensure  we  had  a  standard  process  in  place  for  screening  and  interviewing  -  regardless  of  which  staff  member  was  available.  
+University  of  Manchester,  England—  Systems  Specialist  
+SEPTEMBER
+ 
+2009
+ 
+-
+ 
+AUGUST
+ 
+2013
+ 
+Specialist  in  the  network  systems  used  at  University  I  managed  a  team  of  50  support  representatives  who  worked  part  time  to  assist  other  students  in  their  connection  issues  (a  job  I  did  for  3  years).  I  interviewed,  hired,  created  a  training  plan  and  trained  new  employees.  We   maintained  a  24/7  network  by  ﬁxing  a  variety  of  issues,  replacing  faulty  equipment,  programming  web  services  to  improve  support  systems,  and  also  carried  out  health  and  safety  checks.  Since  I  had  worked  as  an  assistant  before  having  a  placement  in  support  management,  I  had  some  key  goals  about  what  needed  to  be  changed  in  order  to  improve  the  service  to  students  and  staff  -  all  3  of  which  I  managed  to  achieve.   
+〒
+542-0082
+ 
+Joyful
+ 
+Shimanouchi
+ 
+907
+ 
+Osaka,
+ 
+Japan
+ 
+2-8-25
+ 
+050-3706-0500
+ 
+Worthy.vii@gmail
+.com
+ 
+SPOKEN
+ 
+LANGUAGES
+ － English  (Native)  － Japanese  (Intermediate)   
+SKILLS
+   Leading  teams  and  managing  logistics  for  events.    Teaching  and  training.    Wide  variety  of  technical  skills.    Lateral  thinking.  Taking  the  initiative,  calling  people  out  on  bad  ideas.  
+ 
+ 
+TECHNICAL
+ 
+SKILLS
+ Languages  － JAVA  － PHP  － Python  － C/C#  － SQL  － Perl  － Javascript   Software  － Eclipse  － Sublime  － MATLAB  － Git  － Wireshark  － Virtualbox   Other  － Qt  － jQuery  － Bootstrap  － CherryPy  － Android  SDK  － Laravel  － Facebook,  Google  API’s
+
+===== PAGE 2 =====
+
+1)  Switch  status  email  monitoring  service  2)  Switch  port  status  shown  on  our  internal  web  system.  This  greatly  improved  turnaround  time,  allowing  representatives  (1st  level  support)  to  get  this  information  directly  instead  of  having  to  request  it  from  management,  who  were  only  available  during  the  datetime  and  would  have  to  query  the  switch  manually.  3)  Automatic  mac  address  detection  when  user  ﬁrst  signs  up.  It  used  to  be  manual,  and  many  non-technical  users  made  mistakes.  
+EDUCATION
+ 
+University  of  Manchester,  England  —  Computer  Science  BSc  
+SEPTEMBER
+  
+2008
+ 
+-
+ 
+JULY
+ 
+2012
+ 
+Specialized  in  AI  and  Machine  Learning,  graphics  and  algorithms.  3rd  year  project  was  a  research  project  on  a  feature  extraction  algorithm  for  identifying  cancerous  cells  in  lung  tissue.  Also  studied  some  Japanese  and  was  a  member  of  the  Japanese  Society  where  I  manage  their  website  and  help  with  events.   
+  
+PROJECTS
+ 
+Quant  Algorithm —  Automated  Stock  market  algorithm  For  the  past  6  years  I  have  spend  much  time  learning  about  Forex  and  the  stock  market.  This  eventually  lead  me  into  research  using  QuantConnect.com  and  Quantopian.com,  where  I  read  many  books  and  created  some  algorithms  which  could  trade  on  the  stock  market.  I  ﬁnally  made  one  which  can  beat  the  S&P500.  
+Anki  Plugins  Anki  is  SRS  (Spaced  Repetition  Software)  designed  for  optimal  learning  of  almost  anything.  I  built  over  20  plugins  using  python  for  the  app  to  do  various  things  to  enhance  learning  Japanese.  The  majority  were  automated  services  to  pull  example  sentences,  deﬁnitions  etc  from  the  internet.  Others  assisted  in  batch  maintenance  work,  and  organization  of  cards.  I  was  very  interested  in  ﬁnding  the  “optimal”  learning  path  for  a  language.  
+Subsearch —  Online  subtitle  search  and  translation  service  Using  a  large  database  of  subtitles  in  various  languages,  I  developed  a  front  end  that  anyone  can  use  to  search  and  ﬁnd  the  applicable  translation  of  a  sentence  from  movies.  http://subsearch.worthy7.com 
+Stock  market  prediction  -  Predicting  stocks/forex  price  movements  
+I  am  aware  that  it  is  very  difﬁcult  to  do,  but  to  further  my  own  understanding  in  machine  learning  as  a  whole,  I  have  being  doing  this  project  for  over  6  years  and  updating  it  any  time  I  learn  something  new.  I  use  it  to  feed  my  passion  in  learning.  
+Generative  AI/Stable  Diffusion  
+Recently  the  world  has  been  captivated  by  a  boom  in  imaging  AI  technology.  I  wanted  to  understand  this  deeply  and  recently  in  the  last  few  months  this  has  been  my  biggest  side  project.  I  understand  how  models  are  built  and  used,  and  can  make  high  quality  materials  at  this  point.  I  am  currently  struggling  with  video,  but  learning  fast.  
+ 
+AWARDS
+ 
+Silver  Duke  of  Edinburgh  Award  World’s  leading  youth  achievement.  
+Winner  of  the  Nestle  Kit-Kat  challenge.  I  managed  to  stack  Kit-Kats  better  than  anyone  else  in  the  country.

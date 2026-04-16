@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ian Worthington Resume</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm;
+    }
+
+    :root {
+      --text: #111827;
+      --muted: #4b5563;
+      --line: #d1d5db;
+      --heading: #0f172a;
+      --accent: #1f4f8c;
+      --bg-soft: #f8fafc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      color: var(--text);
+      font-family: "Segoe UI", Calibri, Arial, sans-serif;
+      line-height: 1.35;
+      background: #ffffff;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 10mm;
+      background: #fff;
+    }
+
+    header {
+      border-bottom: 2px solid var(--heading);
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.1;
+      color: var(--heading);
+      letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+      margin: 4px 0 8px;
+      font-size: 14px;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .section {
+      margin-top: 10px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .section h2 {
+      margin: 0 0 6px;
+      font-size: 14px;
+      color: var(--heading);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 3px;
+    }
+
+    p {
+      margin: 4px 0;
+      font-size: 12px;
+    }
+
+    ul {
+      margin: 4px 0 0;
+      padding-left: 16px;
+    }
+
+    li {
+      margin: 2px 0;
+      font-size: 12px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .role {
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px dashed var(--line);
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .role:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+      margin-top: 0;
+    }
+
+    .role-title {
+      font-size: 13px;
+      font-weight: 700;
+      margin: 0;
+      color: var(--heading);
+    }
+
+    .role-meta {
+      margin: 1px 0 4px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 6px;
+    }
+
+    .tag {
+      background: var(--bg-soft);
+      border: 1px solid var(--line);
+      padding: 1px 6px;
+      border-radius: 10px;
+      font-size: 11px;
+      color: #1f2937;
+      white-space: nowrap;
+    }
+
+    .small {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: auto;
+        min-height: auto;
+        margin: 0;
+        padding: 0;
+      }
+
+      .two-col {
+        display: block;
+      }
+
+      .section,
+      .role {
+        break-inside: auto;
+        page-break-inside: auto;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Ian Worthington</h1>
+      <div class="subtitle">AI Solutions Architect | Global Tech Lead | Solutions Architect | Technical Consultant</div>
+      <div class="contact">
+        <span>Osaka, Japan</span>
+        <span>worthy.vii@gmail.com</span>
+        <span>070-8908-0770</span>
+        <span>www.ianworthington.com</span>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Professional Summary</h2>
+      <p>AI Solutions Architect and Global Tech Lead with experience delivering enterprise software across healthcare, EDI, and operations-heavy environments. Combines hands-on engineering, consulting, and cross-functional leadership to remove bottlenecks and modernize workflows. Proven track record leading distributed teams and improving delivery quality with practical automation and AI-enabled solutions.</p>
+    </section>
+
+    <div class="two-col">
+      <div>
+        <section class="section">
+          <h2>Professional Experience</h2>
+
+          <article class="role">
+            <p class="role-title">FPT Software (Japan) - AI Solutions Architect / Global Tech Lead</p>
+            <p class="role-meta">Feb 2022 - Present | Osaka, Japan</p>
+            <ul>
+              <li>Lead delivery of a large-scale enterprise software platform developed by multiple international teams.</li>
+              <li>Guide management and engineering teams across the full lifecycle, from consulting and planning through design and delivery.</li>
+              <li>Coordinate cross-region execution between Japanese client stakeholders and English-speaking offshore teams.</li>
+              <li>Improve delivery reliability through stronger quality practices, including test-driven workflows and pipeline discipline.</li>
+              <li>Contribute directly to frontend and backend architecture and implementation, including performance-critical improvements.</li>
+            </ul>
+            <ul>
+              <li><strong>2025-02 to 2026-02:</strong> Led redesign of a major legacy internal system for a global laptop manufacturer; used Figma-driven requirement/design alignment to improve usability and secure follow-on work.</li>
+              <li><strong>2025-02 to 2026-02:</strong> Led requirements and architecture for modernization of a complex approval workflow system; supported kickoff and implementation planning to keep delivery aligned with target design.</li>
+              <li><strong>2025-02 to 2026-02:</strong> Led requirements and prototyping for a mission-critical customization system with heavy Excel/macro dependencies.</li>
+              <li><strong>2024-02 to 2025-02:</strong> Led end-to-end delivery of a Voice of Customer analytics platform (.NET, Angular, Google Bigtable, Vertex AI, K-means) to cluster and summarize high-volume user feedback.</li>
+              <li><strong>2024-02 to 2025-02:</strong> Drove post-launch model accuracy and performance improvements in partnership with client stakeholders.</li>
+              <li><strong>2024-02 to 2025-02:</strong> Performed DDD and clean architecture reviews, delivering actionable improvements for modularity, maintainability, testability, and performance.</li>
+              <li><strong>2024-02 to 2025-02:</strong> Delivered backend data processing and integration for a Nigeria healthcare dashboard (Apache Superset); used Python-generated dummy data and chart prototypes to accelerate requirement decisions.</li>
+              <li><strong>2022-02 to 2024-02:</strong> Served as Solutions Architect and Global Tech Lead for Sysmex Caresphere, coordinating teams across Europe, America, and Japan for requirements, delivery, debugging, UAT, and client communication.</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <p class="role-title">Calendr - CEO / Co-Founder / CTO / Full Stack Developer</p>
+            <p class="role-meta">Feb 2018 - Present</p>
+            <ul>
+              <li>Built and led a booking platform to improve networking and scheduling efficiency in recruiting and sales.</li>
+              <li>Own product strategy, technical architecture, implementation, and iterative customer-driven enhancement.</li>
+              <li>Develop and maintain the core platform stack (Angular + .NET).</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <p class="role-title">Fujikin Incorporated - Software Engineer / Full Stack Engineer</p>
+            <p class="role-meta">May 2016 - Jan 2022 | Osaka, Japan</p>
+            <ul>
+              <li>Developed and modernized enterprise EDI systems for shipments, deliveries, invoicing, and supplier connectivity.</li>
+              <li>Delivered Angular + .NET solutions for high-volume B2B workflows connecting Fujikin with 200+ suppliers.</li>
+              <li>Produced technical documentation and requirement clarifications for business and engineering alignment.</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <p class="role-title">Minerva Intelligence - HR Manager</p>
+            <p class="role-meta">May 2014 - Apr 2016 | Osaka, Japan</p>
+            <ul>
+              <li>Managed scheduling, payroll, hiring, and training operations for approximately 200 teachers in the Kansai region.</li>
+              <li>Built internal operational tooling to support scheduling and payroll management.</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <p class="role-title">Earlier Roles</p>
+            <p class="role-meta">2012 - 2014</p>
+            <ul>
+              <li>Minerva Intelligence - English Teacher (Apr 2013 - May 2014)</li>
+              <li>Borderlink, Inc. - Assistant Language Teacher (Aug 2012 - Feb 2013)</li>
+              <li>University of Manchester - IT Desktop Support, Hornet Representative, Hornet Systems Specialist (2008 - 2012)</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+
+      <aside>
+        <section class="section">
+          <h2>Core Strengths</h2>
+          <div class="tag-list">
+            <span class="tag">Enterprise Architecture</span>
+            <span class="tag">Workflow Automation</span>
+            <span class="tag">Legacy Modernization</span>
+            <span class="tag">Cross-Region Leadership</span>
+            <span class="tag">Requirements Clarification</span>
+            <span class="tag">Stakeholder Consulting</span>
+            <span class="tag">Team Coaching</span>
+            <span class="tag">AI-Enabled Delivery</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Certifications</h2>
+          <ul>
+            <li>PMP, Project Management Institute (Dec 2025)</li>
+            <li>JLPT N2 (May 2022)</li>
+            <li>Use Generative AI as Your Thought Partner, Coursera (Jan 2025)</li>
+          </ul>
+          <p class="small">Credential ID: OW33VS6RCO9V</p>
+        </section>
+
+        <section class="section">
+          <h2>Languages</h2>
+          <ul>
+            <li>English: Native / bilingual</li>
+            <li>Japanese: Intermediate to business capable</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Technical Skills</h2>
+          <p><strong>Languages:</strong> C#, JavaScript/TypeScript, Python, SQL, C/C++, Java, PHP, Perl</p>
+          <p><strong>Frameworks:</strong> .NET, Angular, ActiveReports, SignalR/WebSocket, jQuery, Bootstrap</p>
+          <p><strong>AI/Data:</strong> scikit-learn, TensorFlow, Keras, data preprocessing, model deployment</p>
+          <p><strong>Cloud/DB:</strong> Azure, AWS, GCP/BigQuery, SQL Server, PostgreSQL, DynamoDB, SQLite, Oracle</p>
+          <p><strong>Tools:</strong> Git, MATLAB, Wireshark, VirtualBox, CherryPy, Android SDK, Qt, Laravel</p>
+        </section>
+
+        <section class="section">
+          <h2>Education</h2>
+          <p><strong>The University of Manchester</strong><br>BS/BSc, Computer Science (2007 - 2012)</p>
+          <ul>
+            <li>Focus: machine learning, algorithms, systems</li>
+            <li>Final-year work: feature extraction for cancer-cell identification</li>
+          </ul>
+          <p>Sir John Deanes College (2005 - 2006)</p>
+          <p>Bridgewater Highschool</p>
+        </section>
+
+        <section class="section">
+          <h2>Awards</h2>
+          <ul>
+            <li>Silver Duke of Edinburgh Award</li>
+            <li>Winner, Nestle Kit-Kat Challenge</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>

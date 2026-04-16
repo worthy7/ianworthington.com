@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>イアン・ワージントン 履歴書</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm;
+    }
+
+    :root {
+      --text: #111827;
+      --muted: #4b5563;
+      --line: #d1d5db;
+      --heading: #0f172a;
+      --accent: #1f4f8c;
+      --bg-soft: #f8fafc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      color: var(--text);
+      font-family: "Yu Gothic UI", "Hiragino Kaku Gothic ProN", "Meiryo", "Segoe UI", Arial, sans-serif;
+      line-height: 1.35;
+      background: #ffffff;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 10mm;
+      background: #fff;
+    }
+
+    header {
+      border-bottom: 2px solid var(--heading);
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.1;
+      color: var(--heading);
+      letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+      margin: 4px 0 8px;
+      font-size: 14px;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .section {
+      margin-top: 10px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .section h2 {
+      margin: 0 0 6px;
+      font-size: 14px;
+      color: var(--heading);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 3px;
+    }
+
+    p {
+      margin: 4px 0;
+      font-size: 12px;
+    }
+
+    ul {
+      margin: 4px 0 0;
+      padding-left: 16px;
+    }
+
+    li {
+      margin: 2px 0;
+      font-size: 12px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .role {
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px dashed var(--line);
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .role:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+      margin-top: 0;
+    }
+
+    .role-title {
+      font-size: 13px;
+      font-weight: 700;
+      margin: 0;
+      color: var(--heading);
+    }
+
+    .role-meta {
+      margin: 1px 0 4px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 6px;
+    }
+
+    .tag {
+      background: var(--bg-soft);
+      border: 1px solid var(--line);
+      padding: 1px 6px;
+      border-radius: 10px;
+      font-size: 11px;
+      color: #1f2937;
+      white-space: nowrap;
+    }
+
+    .small {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: auto;
+        min-height: auto;
+        margin: 0;
+        padding: 0;
+      }
+
+      .two-col {
+        display: block;
+      }
+
+      .section,
+      .role {
+        break-inside: auto;
+        page-break-inside: auto;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>イアン・ワージントン</h1>
+      <div class="subtitle">AIソリューションアーキテクト | グローバルテックリード | ソリューションアーキテクト | テクニカルコンサルタント</div>
+      <div class="contact">
+        <span>大阪府, 日本</span>
+        <span>worthy.vii@gmail.com</span>
+        <span>070-8908-0770</span>
+        <span>www.ianworthington.com</span>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>職務要約</h2>
+      <p>ヘルスケア、EDI、業務基幹領域におけるエンタープライズソフトウェア開発を主導してきたAIソリューションアーキテクト。実装力とコンサルティング力を両立し、部門横断の関係者調整を通じて業務ボトルネックを解消し、運用を改善。分散チームのリード、品質向上、実務に根ざした自動化・AI活用の推進に強みを持つ。</p>
+    </section>
+
+    <div class="two-col">
+      <div>
+        <section class="section">
+          <h2>職務経歴</h2>
+
+          <article class="role">
+            <p class="role-title">FPT Software (Japan) - AIソリューションアーキテクト / グローバルテックリード</p>
+            <p class="role-meta">2022年2月 - 現在 | 大阪, 日本</p>
+            <ul>
+              <li>複数の海外開発チームが関与する大規模エンタープライズシステムのデリバリーを主導。</li>
+              <li>コンサルティング、計画、設計、実装まで、プロジェクト全工程でマネジメント層と開発チームを支援。</li>
+              <li>日本語での顧客折衝と英語でのオフショア連携を担い、地域横断の実行を推進。</li>
+              <li>テスト駆動の開発運用やパイプライン整備を通じて、品質とデリバリーの安定性を改善。</li>
+              <li>フロントエンド/バックエンド両面で設計・実装に関与し、性能改善にも貢献。</li>
+            </ul>
+            <ul>
+              <li><strong>2025-02〜2026-02:</strong> グローバルPCメーカー向けに社内レガシーシステムの大規模UI/UX再設計を主導。Figmaで要件・設計を整理し、ユーザビリティ改善と追加案件獲得に寄与。</li>
+              <li><strong>2025-02〜2026-02:</strong> 複雑な承認ワークフロー基盤のモダナイゼーションで、要件定義とアーキテクチャ設計を主導。キックオフ以降も実装方針の整合性を維持。</li>
+              <li><strong>2025-02〜2026-02:</strong> Excel/マクロ依存が強いECカスタマイズ系基幹システムで要件整理とプロトタイピングを推進。</li>
+              <li><strong>2024-02〜2025-02:</strong> VoC分析基盤をエンドツーエンドでリード（.NET, Angular, Google Bigtable, Vertex AI, K-means）。大量フィードバックの分類・要約を実現。</li>
+              <li><strong>2024-02〜2025-02:</strong> リリース後も顧客と連携し、モデル精度と処理性能を継続改善。</li>
+              <li><strong>2024-02〜2025-02:</strong> DDD/クリーンアーキテクチャ観点でコード/設計レビューを実施し、保守性・テスタビリティ・性能改善の具体策を提示。</li>
+              <li><strong>2024-02〜2025-02:</strong> ナイジェリア向けヘルスケアダッシュボード（Apache Superset）でバックエンド連携・データ処理を担当。Pythonによるダミーデータ生成と可視化試作で要件確定を加速。</li>
+              <li><strong>2022-02〜2024-02:</strong> Sysmex Caresphereでソリューションアーキテクト兼グローバルテックリードを担当。欧州・米州・日本チームを横断し、要件、デリバリー、デバッグ、UAT、顧客対応を推進。</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <p class="role-title">Calendr - CEO / Co-Founder / CTO / フルスタック開発者</p>
+            <p class="role-meta">2018年2月 - 現在</p>
+            <ul>
+              <li>採用・営業領域のネットワーキングと日程調整を効率化する予約プラットフォームを構築・運営。</li>
+              <li>プロダクト戦略、技術選定、設計、実装、顧客フィードバック反映まで一貫して担当。</li>
+              <li>Angular + .NET を中心にプロダクトの継続開発を推進。</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <p class="role-title">Fujikin Incorporated - ソフトウェアエンジニア / フルスタックエンジニア</p>
+            <p class="role-meta">2016年5月 - 2022年1月 | 大阪, 日本</p>
+            <ul>
+              <li>出荷・配送・請求・取引先連携を支えるエンタープライズEDIシステムの開発・モダナイズを担当。</li>
+              <li>200社超のサプライヤー連携を支える高トラフィックB2B基盤をAngular + .NETで実装。</li>
+              <li>技術仕様書および要件整理を通じて、業務側と開発側の合意形成を支援。</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <p class="role-title">Minerva Intelligence - HRマネージャー</p>
+            <p class="role-meta">2014年5月 - 2016年4月 | 大阪, 日本</p>
+            <ul>
+              <li>関西エリア約200名規模の講師に対するシフト、給与、採用、研修運用を管理。</li>
+              <li>業務標準化と内製ツール整備により、運用効率と品質を改善。</li>
+            </ul>
+          </article>
+
+          <article class="role">
+            <p class="role-title">初期キャリア</p>
+            <p class="role-meta">2012年 - 2014年</p>
+            <ul>
+              <li>Minerva Intelligence - 英語講師（2013年4月 - 2014年5月）</li>
+              <li>Borderlink, Inc. - ALT（2012年8月 - 2013年2月）</li>
+              <li>University of Manchester - IT Desktop Support / Hornet Representative / Hornet Systems Specialist（2008年 - 2012年）</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+
+      <aside>
+        <section class="section">
+          <h2>強み</h2>
+          <div class="tag-list">
+            <span class="tag">エンタープライズ設計</span>
+            <span class="tag">業務自動化</span>
+            <span class="tag">レガシーモダナイズ</span>
+            <span class="tag">グローバル開発統括</span>
+            <span class="tag">要件定義</span>
+            <span class="tag">顧客折衝</span>
+            <span class="tag">チーム育成</span>
+            <span class="tag">AI活用推進</span>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>資格</h2>
+          <ul>
+            <li>PMP（Project Management Institute, 2025年12月）</li>
+            <li>JLPT N2（2022年5月）</li>
+            <li>Use Generative AI as Your Thought Partner（Coursera, 2025年1月）</li>
+          </ul>
+          <p class="small">Credential ID: OW33VS6RCO9V</p>
+        </section>
+
+        <section class="section">
+          <h2>言語</h2>
+          <ul>
+            <li>英語: ネイティブ</li>
+            <li>日本語: 中級〜業務レベル（JLPT N2）</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>技術スキル</h2>
+          <p><strong>言語:</strong> C#, JavaScript/TypeScript, Python, SQL, C/C++, Java, PHP, Perl</p>
+          <p><strong>フレームワーク:</strong> .NET, Angular, ActiveReports, SignalR/WebSocket, jQuery, Bootstrap</p>
+          <p><strong>AI/データ:</strong> scikit-learn, TensorFlow, Keras, 前処理, モデルデプロイ</p>
+          <p><strong>クラウド/DB:</strong> Azure, AWS, GCP/BigQuery, SQL Server, PostgreSQL, DynamoDB, SQLite, Oracle</p>
+          <p><strong>ツール:</strong> Git, MATLAB, Wireshark, VirtualBox, CherryPy, Android SDK, Qt, Laravel</p>
+        </section>
+
+        <section class="section">
+          <h2>学歴</h2>
+          <p><strong>The University of Manchester</strong><br>BS/BSc, Computer Science（2007年 - 2012年）</p>
+          <ul>
+            <li>専攻領域: 機械学習、アルゴリズム、システム</li>
+            <li>卒業研究: がん細胞識別に向けた特徴抽出アプローチ</li>
+          </ul>
+          <p>Sir John Deanes College（2005年 - 2006年）</p>
+          <p>Bridgewater Highschool</p>
+        </section>
+
+        <section class="section">
+          <h2>受賞</h2>
+          <ul>
+            <li>Silver Duke of Edinburgh Award</li>
+            <li>Nestle Kit-Kat Challenge 優勝</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>
